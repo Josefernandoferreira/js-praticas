@@ -1,0 +1,32 @@
+<div wm-slider >
+<p id="teste">
+    <img  src="http://files.cod3r.com.br/curso-web/imagem1.jpg"
+    width= "513",
+    height="342" >
+</p>
+<p id="teste">
+    <img src="http://files.cod3r.com.br/curso-web/imagem2.gif"
+    height="342"
+    width="513">
+</p>
+</div>
+
+<style>
+
+p{
+    position: absolute;
+}
+#teste{
+    animation-name: myTeste;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes myTeste {
+    from {transform: translateX(-600);}
+    to {transform: translateX(calc(100vw))};
+}
+
+</style>
+<script>
+</script>
